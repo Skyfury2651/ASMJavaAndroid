@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateExpendituresFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Expenditures"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="#9b0029"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edName"
+                android:hint="Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/edDescription"
+                android:hint="Description"
+                android:layout_marginTop="10dp"
+                android:gravity="top"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/edDetail"
+                android:hint="Detail"
+                android:layout_marginTop="10dp"
+                android:gravity="top"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/edMoney"
+                android:hint="Money"
+                android:layout_marginTop="10dp"
+                android:gravity="top"/>
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="333dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:datePickerMode="calendar" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spCategory"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Create"
+                android:layout_gravity="center"
+                android:id="@+id/btnCreate"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

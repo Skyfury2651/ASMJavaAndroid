@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AptechAndroid/EmptyAndroid/app/android_asm-master/app/src/main/res/layout/drawer_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/AptechAndroid/EmptyAndroid/app/android_asm-master/app/src/main/res/layout/fragment_create_expenditures.xml" value="0.25416666666666665" />
+        <entry key="..\:/android/asm/app/src/main/res/drawable/ic_baseline_3d_rotation_24.xml" value="0.3828125" />
+        <entry key="..\:/android/asm/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.3828125" />
+        <entry key="..\:/android/asm/app/src/main/res/layout/activity_drawer_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/android/asm/app/src/main/res/layout/drawer_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/android/asm/app/src/main/res/layout/fragment_create_expenditures.xml" value="0.36666666666666664" />
+        <entry key="..\:/android/asm/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
